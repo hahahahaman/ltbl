@@ -1,0 +1,317 @@
+# depslib dependency file v1.0
+1375239470 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\aabb.cpp
+	<LTBL/Constructs/AABB.h>
+	<SFML/OpenGL.hpp>
+
+1375239422 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\aabb.h
+	<LTBL/Constructs/Vec2f.h>
+	<cmath>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\vec2f.h
+	<iostream>
+
+1343985297 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\color3f.cpp
+	<LTBL/Constructs/Color3f.h>
+	<SFML/OpenGL.hpp>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\color3f.h
+
+1343985297 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\point2i.cpp
+	<LTBL/Constructs/Point2i.h>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\point2i.h
+
+1343985297 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\vec2f.cpp
+	<LTBL/Constructs/Vec2f.h>
+	<math.h>
+
+1375239708 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\convexhull.cpp
+	<LTBL/Light/ConvexHull.h>
+	<LTBL/Utils.h>
+	<assert.h>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\convexhull.h
+	<SFML/OpenGL.hpp>
+	<LTBL/Constructs.h>
+	<LTBL/QuadTree/QuadTree.h>
+	<vector>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs.h
+	<LTBL/Constructs/Vec2f.h>
+	<LTBL/Constructs/AABB.h>
+	<LTBL/Constructs/Point2i.h>
+	<LTBL/Constructs/Color3f.h>
+
+1375240812 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\quadtree.h
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/QuadTree/QuadTreeOccupant.h>
+	<unordered_set>
+	<memory>
+	<list>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\quadtreenode.h
+	<LTBL/Constructs/AABB.h>
+	<LTBL/Constructs/Point2i.h>
+	<LTBL/QuadTree/QuadTreeOccupant.h>
+	<vector>
+	<unordered_set>
+	<memory>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\quadtreeoccupant.h
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/Constructs/AABB.h>
+
+1375239679 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\utils.h
+	<cmath>
+	<string>
+
+1375239915 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\emissivelight.cpp
+	<LTBL/Light/EmissiveLight.h>
+	<cmath>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\emissivelight.h
+	<LTBL/QuadTree/QuadTree.h>
+	<LTBL/Constructs/Color3f.h>
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics/Texture.hpp>
+
+1343985297 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\light.cpp
+	<LTBL/Light/Light.h>
+	<assert.h>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\light.h
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<LTBL/Constructs.h>
+	<LTBL/QuadTree/QuadTree.h>
+
+1343985297 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\light_point.cpp
+	<LTBL/Light/Light_Point.h>
+	<LTBL/Light/ShadowFin.h>
+	<LTBL/Utils.h>
+	<assert.h>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\light_point.h
+	<LTBL/Light/Light.h>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\shadowfin.h
+	<SFML/OpenGL.hpp>
+	<LTBL/Constructs/Vec2f.h>
+
+1375240655 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\lightsystem.cpp
+	<LTBL/QuadTree/QuadTreeOccupant.h>
+	<LTBL/Light/LightSystem.h>
+	<LTBL/Light/ShadowFin.h>
+	<LTBL/Utils.h>
+	<assert.h>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\lightsystem.h
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<LTBL/QuadTree/StaticQuadTree.h>
+	<LTBL/Light/Light.h>
+	<LTBL/Light/EmissiveLight.h>
+	<LTBL/Light/ConvexHull.h>
+	<LTBL/Light/ShadowFin.h>
+	<LTBL/Constructs.h>
+	<unordered_set>
+	<vector>
+
+1343985297 d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\staticquadtree.h
+	<LTBL/QuadTree/QuadTree.h>
+
+1343985297 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\shadowfin.cpp
+	<LTBL/Light/ShadowFin.h>
+
+1375240812 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\quadtree.cpp
+	<LTBL/QuadTree/QuadTree.h>
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/QuadTree/QuadTree.h>
+	<SFML/OpenGL.hpp>
+
+1343986746 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\quadtreenode.cpp
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/QuadTree/QuadTree.h>
+	<assert.h>
+
+1343985297 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\quadtreeoccupant.cpp
+	<LTBL/QuadTree/QuadTreeOccupant.h>
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/QuadTree/QuadTree.h>
+	<LTBL/Constructs/Vec2f.h>
+	<assert.h>
+
+1343985297 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\staticquadtree.cpp
+	<LTBL/QuadTree/StaticQuadTree.h>
+	<assert.h>
+
+1375241075 source:d:\docs\stuff\code\random\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\utils.cpp
+	<LTBL/Utils.h>
+	<sstream>
+	<cstdlib>
+
+1376169484 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\aabb.cpp
+	<LTBL/Constructs/AABB.h>
+	<SFML/OpenGL.hpp>
+
+1375244612 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\aabb.h
+	<LTBL/Constructs/Vec2f.h>
+	<cmath>
+
+1343985297 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\vec2f.h
+	<iostream>
+
+1343985297 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\color3f.cpp
+	<LTBL/Constructs/Color3f.h>
+	<SFML/OpenGL.hpp>
+
+1343985297 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\color3f.h
+
+1343985297 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\point2i.cpp
+	<LTBL/Constructs/Point2i.h>
+
+1343985297 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\point2i.h
+
+1343985297 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs\vec2f.cpp
+	<LTBL/Constructs/Vec2f.h>
+	<math.h>
+
+1376118371 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\convexhull.cpp
+	<LTBL/Light/ConvexHull.h>
+	<LTBL/Utils.h>
+	<cassert>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1375748086 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\convexhull.h
+	<SFML/OpenGL.hpp>
+	<LTBL/Constructs.h>
+	<LTBL/QuadTree/QuadTree.h>
+	<vector>
+
+1343985297 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\constructs.h
+	<LTBL/Constructs/Vec2f.h>
+	<LTBL/Constructs/AABB.h>
+	<LTBL/Constructs/Point2i.h>
+	<LTBL/Constructs/Color3f.h>
+
+1375240812 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\quadtree.h
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/QuadTree/QuadTreeOccupant.h>
+	<unordered_set>
+	<memory>
+	<list>
+
+1375296275 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\quadtreenode.h
+	<LTBL/Constructs/AABB.h>
+	<LTBL/Constructs/Point2i.h>
+	<LTBL/QuadTree/QuadTreeOccupant.h>
+	<vector>
+	<unordered_set>
+	<memory>
+
+1343985297 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\quadtreeoccupant.h
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/Constructs/AABB.h>
+
+1375748307 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\utils.h
+	<cmath>
+	<string>
+
+1375239915 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\emissivelight.cpp
+	<LTBL/Light/EmissiveLight.h>
+	<cmath>
+
+1375748080 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\emissivelight.h
+	<LTBL/QuadTree/QuadTree.h>
+	<LTBL/Constructs/Color3f.h>
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics/Texture.hpp>
+
+1376118368 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\light.cpp
+	<LTBL/Light/Light.h>
+	<cassert>
+
+1375747864 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\light.h
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<LTBL/Constructs.h>
+	<LTBL/QuadTree/QuadTree.h>
+
+1376118370 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\light_point.cpp
+	<LTBL/Light/Light_Point.h>
+	<LTBL/Light/ShadowFin.h>
+	<LTBL/Utils.h>
+	<cassert>
+
+1375748093 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\light_point.h
+	<LTBL/Light/Light.h>
+
+1343985297 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\shadowfin.h
+	<SFML/OpenGL.hpp>
+	<LTBL/Constructs/Vec2f.h>
+
+1376118369 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\lightsystem.cpp
+	<LTBL/QuadTree/QuadTreeOccupant.h>
+	<LTBL/Light/LightSystem.h>
+	<LTBL/Light/ShadowFin.h>
+	<LTBL/Utils.h>
+	<cassert>
+
+1375748747 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\lightsystem.h
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<LTBL/QuadTree/StaticQuadTree.h>
+	<LTBL/Light/Light.h>
+	<LTBL/Light/Light_Point.h>
+	<LTBL/Light/EmissiveLight.h>
+	<LTBL/Light/ConvexHull.h>
+	<LTBL/Light/ShadowFin.h>
+	<LTBL/Constructs.h>
+	<LTBL/Utils.h>
+	<unordered_set>
+	<vector>
+
+1343985297 d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\staticquadtree.h
+	<LTBL/QuadTree/QuadTree.h>
+
+1343985297 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\light\shadowfin.cpp
+	<LTBL/Light/ShadowFin.h>
+
+1375240812 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\quadtree.cpp
+	<LTBL/QuadTree/QuadTree.h>
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/QuadTree/QuadTree.h>
+	<SFML/OpenGL.hpp>
+
+1376118391 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\quadtreenode.cpp
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/QuadTree/QuadTree.h>
+	<cassert>
+
+1376118390 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\quadtreeoccupant.cpp
+	<LTBL/QuadTree/QuadTreeOccupant.h>
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/QuadTree/QuadTree.h>
+	<LTBL/Constructs/Vec2f.h>
+	<cassert>
+
+1376118390 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\quadtree\staticquadtree.cpp
+	<LTBL/QuadTree/StaticQuadTree.h>
+	<cassert>
+
+1375241075 source:d:\docs\stuff\code\lib\let_there_be_light_v1.5.1\let_there_be_light_v1.5\source\ltbl\utils.cpp
+	<LTBL/Utils.h>
+	<sstream>
+	<cstdlib>
+

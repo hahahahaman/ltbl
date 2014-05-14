@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LTBL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="./bin/LTBL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="/bin/LTBL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../Source" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+		</Linker>
+		<Unit filename="../Source/LTBL/Constructs.h" />
+		<Unit filename="../Source/LTBL/Constructs/AABB.cpp" />
+		<Unit filename="../Source/LTBL/Constructs/AABB.h" />
+		<Unit filename="../Source/LTBL/Constructs/Color3f.cpp" />
+		<Unit filename="../Source/LTBL/Constructs/Color3f.h" />
+		<Unit filename="../Source/LTBL/Constructs/Point2i.cpp" />
+		<Unit filename="../Source/LTBL/Constructs/Point2i.h" />
+		<Unit filename="../Source/LTBL/Constructs/Vec2f.cpp" />
+		<Unit filename="../Source/LTBL/Constructs/Vec2f.h" />
+		<Unit filename="../Source/LTBL/Light/ConvexHull.cpp" />
+		<Unit filename="../Source/LTBL/Light/ConvexHull.h" />
+		<Unit filename="../Source/LTBL/Light/EmissiveLight.cpp" />
+		<Unit filename="../Source/LTBL/Light/EmissiveLight.h" />
+		<Unit filename="../Source/LTBL/Light/Light.cpp" />
+		<Unit filename="../Source/LTBL/Light/Light.h" />
+		<Unit filename="../Source/LTBL/Light/LightSystem.cpp" />
+		<Unit filename="../Source/LTBL/Light/LightSystem.h" />
+		<Unit filename="../Source/LTBL/Light/Light_Point.cpp" />
+		<Unit filename="../Source/LTBL/Light/Light_Point.h" />
+		<Unit filename="../Source/LTBL/Light/ShadowFin.cpp" />
+		<Unit filename="../Source/LTBL/Light/ShadowFin.h" />
+		<Unit filename="../Source/LTBL/QuadTree/QuadTree.cpp" />
+		<Unit filename="../Source/LTBL/QuadTree/QuadTree.h" />
+		<Unit filename="../Source/LTBL/QuadTree/QuadTreeNode.cpp" />
+		<Unit filename="../Source/LTBL/QuadTree/QuadTreeNode.h" />
+		<Unit filename="../Source/LTBL/QuadTree/QuadTreeOccupant.cpp" />
+		<Unit filename="../Source/LTBL/QuadTree/QuadTreeOccupant.h" />
+		<Unit filename="../Source/LTBL/QuadTree/StaticQuadTree.cpp" />
+		<Unit filename="../Source/LTBL/QuadTree/StaticQuadTree.h" />
+		<Unit filename="../Source/LTBL/Utils.cpp" />
+		<Unit filename="../Source/LTBL/Utils.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
